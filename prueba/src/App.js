@@ -13,16 +13,16 @@ import './App.css';
 function App() {
   return (
     <div>
-      <Carrousel/>
-      <Charity/>
-      <Content/>
-      <Features/>
-      <Footer/>
-      <Health/>
       <Navbar/>
+      <Content/>
       <Offers/>
+      <Features/>
+      <Health/>
+      <Charity/>
       <Surprise/>
+      <Carrousel/>
       <TellaFriend/>
+      <Footer/>
     </div>
   );
 }
