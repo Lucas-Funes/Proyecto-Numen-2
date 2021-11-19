@@ -7,7 +7,6 @@ const Content = () => {
   return (
     <>
       <div className="conteiner">
-
         <div ClassName="conteiner-data">
           <h1>Como preparar Vino?</h1>
 
@@ -68,18 +67,13 @@ const Content = () => {
               tendrá lugar una vez que este es embotellado.
             </li>
           </ul>
-          <button className ="boton">
-            Toca aqui para mas info!
-          </button>
+          <button className="boton">Toca aqui para mas info!</button>
         </div>
 
         <div className="conteiner-img">
           <img src={Vino} />
         </div>
-
       </div>
-
-      
     </>
   );
 };
