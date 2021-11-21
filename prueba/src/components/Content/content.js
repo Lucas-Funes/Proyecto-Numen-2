@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import "../Content/content.js";
 import Vino from "../../Images/vinotinto.jpg";
 import "../Content/content.css";
