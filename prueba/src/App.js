@@ -6,7 +6,7 @@ import Content from './components/Content/content.js'
 //import Health from './components/Health/health.js'
 //import Navbar from './components/Navbar/navbar.js'
 //import Offers from './components/Offers/offers.js'
-import Surprise from './components/Surprise/surprise.js'
+//import Surprise from './components/Surprise/surprise.js'
 //import TellaFriend from './components/TellaFriend/tellafriend.js'
 
 
@@ -16,10 +16,10 @@ function App() {
       
       <Content/>
      
+      <br/>
       
       
-      
-      <Surprise/>
+     
       
      
      
