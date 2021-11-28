@@ -1,6 +1,7 @@
 //import Carrousel from './components/Carrousel/carrousel.js'
 //import Charity from './components/Charity/charity.js'
 import Content from './components/Content/content.js'
+import Surprise from './components/Surprise/surprise.js';
 //import Features from './components/Features/features.js'
 //import Footer from './components/Footer/footer.js'
 //import Health from './components/Health/health.js'
@@ -19,7 +20,7 @@ function App() {
       <br/>
       
       
-     
+     <Surprise/>
       
      
      

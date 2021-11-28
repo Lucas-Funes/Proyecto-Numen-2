@@ -1,133 +1,55 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
-
-h1 {
-  font-family: "Cormorant";
-  font-size: 40px;
+h1{
+  margin: 20px;
+  font-family: 'Cormorant';
+}
+.text-orange{
+  color: orange;
 }
 
-h3 {
-  font-family: "Poppins";
-  font-size: 16px;
+h3{
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
 }
+
 
 p{
-  font-family: "Cormorant";
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
   color: black;
   font-size: 16px;
 }
 
-.conteiner{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-}
-
-.conteiner-data{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-
-
-
-.conteiner-data-images{
+.main-container {
   display: flex;
   flex-direction: column;
 }
 
-
-
-
-.images-datawine-one{
+.items-container {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 20px;
 }
-.partone-data{
-  padding-left: 15px;
+
+.item-image {
+  width: 20px;
+  height: 20px;
+}
+
+.item-text {
+  font-size: 20px;
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: auto;
 }
 
 
 
-.images-datawine-two{
-  display: flex;
-  align-items: center;
-}
-.partwo-data{
-  padding-left: 15px;
-}
-
-
-
-.images-datawine-three{
-  display: flex;
-  align-items: center;
-}
-.parthree-data{
-  padding-left: 15px;
-}
-
-
-.images-datawine-four{
-  display: flex;
-  align-items: center;
-}
-.partfour-data{
-  padding-left: 15px;
-}
-
-.images-datawine-five{
-  display: flex;
-  align-items: center;
-}
-.partfive-data{
-  padding-left: 15px;
-}
-
-
-.images-datawine-six{
-  display: flex;
-  align-items: center;
-}
-.partsix-data{
-  padding-left: 15px;
-}
-
-
-.images-datawine-seven{
-  display: flex;
-  align-items: center;
-}
-.partseven-data{
-  padding-left: 15px;
-}
-
-.images-datawine-eight{
-  display: flex;
-  align-items: center;
-}
-.parteight-data{
-  padding-left: 15px;
-}
-
-.images-datawine-nine{
-  display: flex;
-  align-items: center;
-}
-.partnine-data{
-  padding-left: 15px;
-}
-
-.images-datawine-ten{
-  display: flex;
-  align-items: center;
-}
-.parten-data{
-  padding-left: 15px;
+.button{
+  color: white;
+  background-color:orange;
+  width: 200px;
+  height: 30px;
 }
 
 .conteiner-img{
@@ -136,5 +58,7 @@ p{
   height: 100%;
   margin: auto;
 }
+
+
 
 

@@ -1,0 +1,63 @@
+
+.titulo-datos{
+    font-family: "Cormorant";
+    font-size: 40px;
+    color: orange;
+    padding-left: 31px;
+}
+
+
+.subtitulo-datos{
+    font-family: "Cormorant";
+    font-size: 20px;
+    padding-left: 31px;
+}
+
+
+.parrafouno-datos p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    font-style: normal;
+    padding-left: 31px;
+}
+
+.parrafodos-datos p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    font-style: normal;
+    padding-left: 31px;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.contenedor-datos{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-imagenes img{
+    width: 570px;
+    height: 400px;
+}
+
+.boton-contenedor{
+    padding-left: 31px;
+}
+
+.boton{
+    background-color: orange;
+    color: white;
+    width: 120px;
+    height: 45px;
+}
