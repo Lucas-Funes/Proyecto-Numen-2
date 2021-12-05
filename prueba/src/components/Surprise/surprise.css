@@ -3,14 +3,13 @@
     font-family: "Cormorant";
     font-size: 40px;
     color: orange;
-    padding-left: 31px;
+    margin: 0;
 }
 
 
 .subtitulo-datos{
     font-family: "Cormorant";
-    font-size: 20px;
-    padding-left: 31px;
+    font-size: 30px;
 }
 
 
@@ -20,7 +19,7 @@
     font-weight: 800;
     line-height: 24px;
     font-style: normal;
-    padding-left: 31px;
+  
 }
 
 .parrafodos-datos p{
@@ -29,7 +28,7 @@
     font-weight: 800;
     line-height: 24px;
     font-style: normal;
-    padding-left: 31px;
+    
 }
 
 
@@ -39,11 +38,13 @@
     justify-content: center;
     margin: auto;
     align-items: center;
+    padding-left: 30px;
 }
 
 .contenedor-datos{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
 }
 
 .contenedor-imagenes img{
@@ -51,13 +52,6 @@
     height: 400px;
 }
 
-.boton-contenedor{
-    padding-left: 31px;
-}
 
-.boton{
-    background-color: orange;
-    color: white;
-    width: 120px;
-    height: 45px;
-}
+
+

@@ -1,0 +1,19 @@
+.boton-list{
+    width: fit-content;
+    margin-left: 60px;
+    padding: 10px 40px 10px 40px;
+    background-color: #FF8126;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .boton-list:focus{
+    outline: none;
+  }
+  
+  .boton-list:hover{
+    transform: scale(1.15);
+  }

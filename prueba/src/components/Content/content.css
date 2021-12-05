@@ -37,7 +37,7 @@ p{
 }
 
 .item-text {
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
   margin-left: 10px;
   margin-bottom: auto;
@@ -52,13 +52,39 @@ p{
   height: 30px;
 }
 
-.conteiner-img{
-  text-align: center;
-  width: 100%;
-  height: 100%;
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.wine-image{
+  height: 500px;
+  width: 500px;
   margin: auto;
 }
 
+.boton-list{
+  width: fit-content;
+  margin-left: 60px;
+  padding: 10px 40px 10px 40px;
+  background-color: #FF8126;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+}
 
+.boton-list:focus{
+  outline: none;
+}
+
+.boton-list:hover{
+  transform: scale(1.15);
+}
 
 
